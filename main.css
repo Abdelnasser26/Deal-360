@@ -1,0 +1,1273 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}   
+    .Master-Container{
+        margin-left: 246px;
+        margin-right: 246px;
+    }
+    .Agecny-Profile{
+        width: 1428px;
+        height: 3482px;
+        /* flex-wrap: wrap; */
+    }
+    .Left-Main-Div{
+        height: 618px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: sticky;
+        top: 0;
+        /* justify-content: space-between; */
+    }
+    .A1-div{
+        width: 339px ;
+        height: 332.87px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 16px 40px 0px rgba(170, 170, 170, 0.2);
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        border-radius: 10px;
+        margin: 24px 24px 22.1px 0px;
+    }
+    .A1-P-P{
+        width: 191px;
+        height: 192px;
+        border-radius: 10px;
+        background-image: url('imgs/images.png');
+        margin: 24px 73px 0px 75px;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+    }
+    .A1-R-D{
+        width: 104px;
+        height: 32px;
+        border-radius: 10px;
+        background-color: rgba(70, 73,76, 100%);
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.16);
+        align-self: flex-end;
+        border: 2px solid white;
+        justify-content: center;
+        justify-self: center;
+    }
+    .A1-R-P{
+        width: 40px;
+        height: 16px;
+        align-self: center;
+        margin: 8px 32px 8px 32px;
+    }
+    @font-face {
+        font-family: Poppins-semiBold;
+        src: url('fonts/Poppins-SemiBold.ttf');
+    }
+    .A1-P{
+        width: 19px;
+        height: 12px;
+        font-family: Poppins-semiBold;
+        font-size: 12px;
+        color: white;
+        /* line-height: 0.18; */
+    }
+    .A1-I{
+        width: 16px;
+        height: 16px;
+        align-self: center;
+        justify-self: center;
+        background-image: url('icons/Polygon\ 33.svg');
+        margin-left: 5px;
+    }
+     @font-face {
+        font-family: Roboto-Bold;
+        src: url('fonts/Roboto-Bold.ttf');
+    }
+    .A1-Text{
+        width: 152px;
+        height: 25px;
+        font-family: Roboto-Bold;
+        font-size: 20px;
+        color: #46494C;
+        margin: 24.5px 93px 8.6px 94px;
+        align-self: center;
+        justify-content: space-around;
+        /* line-height: 0.26; */
+    }
+    @font-face {
+        font-family: Poppins-regular;
+        src: url('fonts/Poppins-Regular.ttf');
+    }
+    .A1-Text2{
+        width: 77px;
+        height: 20px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        color: #8A8F93;
+        align-self: center; 
+        justify-content: space-around;
+        line-height: 0.21px;
+        margin-bottom: 24px;
+    }
+    .A1-Communication
+    {
+        width: 338px;
+        height: 72px;
+        border-radius: 10px;
+        background-color: rgba(239, 248, 254, 100%);
+        box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.2);
+        justify-content: center; 
+        align-items: center;
+    }
+    .A1-Communicaiton-holder{
+        width: 286px;
+        height: 40px;
+        justify-content: space-between;
+    }
+    .A1-Co-Button{
+        width: 174px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background: linear-gradient(to left, rgba(156, 157 , 254 , 100%), rgba(75 , 190, 247,100%));
+        justify-content: center;
+    }
+    .A1-message-holder{
+        width: 110px;
+        height: 23px;
+        align-self: center;
+        justify-content: center;
+    }
+    .A1-Message{
+        width: 86px;
+        height: inherit;
+        font-family: Poppins-regular;
+        font-size: 16px;
+        line-height: 25px;
+        justify-content: center;
+        align-items: flex-end;
+        color: rgba(245, 245, 255, 100%);
+        /* margin-left: 8px; */
+    }
+    .A1-mail-icon{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Mask\ Group\ 316.svg');
+        align-self: center;
+        justify-content: center;
+    }
+    .A1-Website-icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(128, 128 , 255 , 0.2);
+        justify-content: center;        
+    }
+    .A1-W-icon{
+        width: 16px;
+        height: 16px;
+        align-self: center;
+        justify-content: center;
+        background-image: url('icons/Mask\ Group\ 234.svg');    
+    }
+    .A1-Call-icon{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(54, 219 , 153 , 0.2);
+        justify-content: center;        
+    }
+    .A1-C-icon{
+        width: 16px;
+        height: 16px;
+        align-self: center;
+        justify-content: center;
+        background-image: url('icons/Mask\ Group\ 317.svg');    
+    }
+    .A1-About-holder{
+        width: 338px;
+        height: 33px;
+        border-radius: 10px;
+        background: linear-gradient(to right, rgba(238, 240, 252 , 100%), rgba(232 , 236, 249,100%));
+        box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.2);
+        /* justify-content: space-between; */
+        align-items: center;
+        margin-top: 24px;
+    }
+    .A1-info-icon{
+        width: 16px;
+        height: 16px;
+        justify-self: flex-start;
+        background-image: url('icons/Mask\ Group\ 554.svg');
+        margin: 10px 16px 7px 16px;
+    }
+    .A1-A-text{
+        width: 66px;
+        height: 18px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        color: rgba(75 , 190, 247,100%);
+        line-height: 21px;
+        margin: 7px 224px 8px 0px;
+    }
+    .A1-agent-div{
+        display: flex;
+    }
+    .A1-Agent-icon{
+        width: 16px;
+        height: 16px;
+        align-content: center;
+        align-self: center;
+        margin: 14px 16px 24px 8px ;
+        border-color: rgba(112, 112, 112, 100%);
+        background-image: url('icons/Mask\ Group\ 550.svg');
+
+    }
+    .A1-Agent-text{
+        width: 57px;
+        height: 16px;
+        align-self: center;
+        margin-bottom: 14px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(138, 143, 147   , 100%);
+    }
+    .A1-Properties-div{
+        display: flex;
+    }
+    .A1-Properties-icon{
+        width: 16px;
+        height: 16px;
+        align-content: center;
+        align-self: center;
+        margin: 0px 16px 24px 8px ;
+        border-color: rgba(112, 112, 112, 100%);
+        background-image: url('icons/Mask\ Group\ 553.svg');
+
+    }
+    .A1-Properties-text{
+        width: 85px;
+        height: 16px;
+        margin-bottom: 14px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(138, 143, 147, 100%);
+    }
+    .A1-Reviews-div{
+        display: flex;
+    }
+    .A1-Reviews-icon{
+        width: 16px;
+        height: 16px;
+        align-content: center;
+        align-self: center;
+        margin: 0px 16px 0px 8px ;
+        border-color: rgba(112, 112, 112, 100%);
+        background-image: url('icons/Mask\ Group\ 555.svg');
+    }
+    .A1-Reviews-text{
+        width: 85px;
+        height: 16px;
+        /* margin-bottom: 14px; */
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(138, 143, 147, 100%);
+        
+    }
+    .Right-Main-div{
+        height: 3842px;
+        flex-direction: column;
+    }
+    .A2-Cover-picture{
+        width: 1065px;
+        height: 360px;
+        justify-content: center;
+        margin-top: 24px;
+        background-size: contain;
+        background-image: url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+        box-shadow: 0px 16px 16px 0px rgba(112, 144, 176, 0.16);
+        border-radius: 20px;
+    }
+    .A2-icon{
+        width: 48px;
+        height: 48px;
+        align-self: center;
+        background-image: url('icons/icons8_Play_Button_Circled.svg');
+        z-index: -1;
+    }
+    .A2-AboutUs{
+        width: 1010px;
+        height: 192px;
+        margin-top: 24px;
+        margin-left: 25px;
+        flex-direction: column;
+    }
+    .A2-first-half{
+        width: 194px;
+        height: 44px;
+        flex-direction: column;
+    }
+    .A2-fh-text{
+        width: 194px;
+        height: 25px;
+        font-family: Poppins-regular;
+        font-size: 20px;
+        line-height: 30px;
+        align-self: flex-start;
+        color: rgba(70, 73,76, 100%);
+        margin-bottom: 14.6px;
+    }
+    .A2-fh-icon{
+        width: 24px;
+        height: 24px;
+        background-image: url('icons/Line\ 27.svg');
+        border-color: rgba(75 , 190, 247,100%);
+    }
+    @font-face {
+        font-family: Poppins-light;
+        src: url('fonts/Roboto-Light.ttf');
+    }
+    .A2-fh-paragraph{
+        width: 987px;
+        height: 126px;
+        align-self: flex-end;
+        justify-content: flex-end;
+        font-family: Poppins-light;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(138, 143, 147, 100%);
+        flex-wrap: wrap;
+    }
+    .A2-null{
+        align-self: flex-end;
+    }
+    .A2-Overview{
+        width: 276px;
+        height: 206px;
+        margin-left: 25px;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 24.4px;
+    }
+    .A2-Time{
+        width: 249px;
+        height: 20px;
+        align-self: flex-end;
+        justify-content: space-between;
+    }
+    .A2-T-icon{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Mask\ Group\ 569.svg');
+        align-self: center;
+    }
+    .A2-T-text{
+        width: 217px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #8A8F93;
+        align-self: center;
+    }
+    .A2-Agent{
+        width: 82px;
+        height: 20px;
+        align-self: flex-start;
+        justify-content: space-between;
+        margin-left: 27px;
+    }
+    .A2-agent-icon{
+        width: 16px;
+        height: 16px;
+        align-self: center;
+        background-image: url('icons/Mask\ Group\ 485.svg');
+        color: #4BBEF7;
+    }
+    .A2-A-text{
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #8A8F93;
+        align-self: center;
+    }
+    .A2-Properties{
+        width: 132px;
+        height: 20px;
+        margin-left: 27px;
+        justify-content: space-between;
+    }
+    .A2-P-icon{
+        width: 16px;
+        height: 16px;
+        align-self: center;
+        background-image: url('icons/Mask\ Group\ 484.svg');
+        color:#9C9DFE;
+    }
+    .A2-P-text{
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #8A8F93;
+        align-self: center;
+    }
+    .A2-Details{
+        width: 220px;
+        height: 34.37px;
+        align-self: flex-end;
+        justify-content: space-between;
+    }
+    .A2-D-left{
+        width: 22px;
+        height: 34.37px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .A2-D-Left-above-text{
+        font-family: Poppins-regular;
+        font-size: 12px;
+        line-height: 18px;
+        color: #2F3F58;
+    }
+    .A2-D-Left-bottom-text{
+        font-family: Poppins-regular;
+        font-size: 12px;
+        line-height: 18px;
+        color: #8A8F93;
+        align-self: flex-end;
+    }
+    .A2-D-mid{
+        width: 27px;
+        height: 34.37px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .A2-D-right{
+        flex-direction: column;
+        justify-content: space-around;
+        width: 75px;
+        height: 34.37;
+    }
+    .A2-Seperate-line{
+        width: 2px;
+        height: 27px;
+        border-radius: 20px;
+        background-image: url('icons/Rectangle\ 18830.svg');
+        align-self: center;
+    }
+    .A2-Specialties{
+        width: 685px;
+        height: 41.63px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 24px;
+    }
+    .A2-S-text{
+        width: 685px;
+        height: 25px;
+        font-family: Poppins-regular;
+        font-size: 20px;
+        line-height: 30px;
+        align-self: flex-start;
+        color: rgba(70, 73,76, 100%);
+        margin-bottom: 14.6px;
+    }
+    .A2-S-icon{
+        width: 0px;
+        width: 24px;
+        height: 24px;
+        background-image: url('icons/Line\ 27.svg');
+        border-color: rgba(75 , 190, 247,100%);
+    }
+    .A2-Areas{
+        width: 385px;
+        height: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 48px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+    .A2-location{
+        width: 129px;
+        height: 24px;
+        justify-content: space-between;
+    }
+    .A2-Usa{
+        width: 55px;
+        height: 24px;
+        background-color: #F9FAFE ;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 8%);
+        justify-content: center;
+        align-items: center;
+    }
+    .A2-USA-text{
+        width: 22px;
+        height: 16px;
+        font-family: Poppins-light;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8080FF;
+    }
+    .A2-Usa{
+        width: 55px;
+        height: 24px;
+        background-color: #F9FAFE ;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 8%);
+        justify-content: center;
+        align-items: center;
+    }
+    .A2-dubai{
+        width: 66px;
+        height: 24px;
+        background-color: #F9FAFE ;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 8%);
+        justify-content: center;
+        align-items: center;
+    }
+    .A2-DUBAi-text{
+        width: 34px;
+        height: 16px;
+        font-family: Poppins-light;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8080FF;
+    }
+    .A2-mid-Areas{
+        width: 150px;
+        height: 24px;
+        background-color: #F9FAFE ;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 8%);
+        justify-content: center;
+        align-items: center;
+    }
+    .A2-M-text{
+        width: 118px;
+        height: 16px;
+        font-family: Poppins-light;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8080FF;
+    }
+    .A2-right-Areas{
+        width: 90px;
+        height: 24px;
+        background-color: #F9FAFE ;
+        border-radius: 5px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 8%);
+        justify-content: center;
+        align-items: center;
+    }
+    .A2-R-text{
+        width: 58px;
+        height: 16px;
+        font-family: Poppins-light;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8080FF;
+    }
+    .A2-contacts{
+        width: 592px;
+        height: 140px;
+        margin-left: 24px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .A2-C-1{
+        width: 592px;
+        height: 20px;
+        justify-content: space-between;
+    }
+    .A2-C-1-icon{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Mask\ Group\ 390.svg');
+    }
+    .A2-C-1-para{
+        width: 560px;
+        height: 20px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #8A8F93;
+    }
+    .A2-C-2{
+        width: 590px;
+        height: 20px;
+        justify-content: space-between;
+    }
+    .A2-C-2-icon{
+        width: 16px;
+        height: 16px;
+        align-self: center;
+        background-image: url('icons/Mask\ Group\ 537.svg');
+    }
+    .A2-C-2-para{
+        margin-left: 16px;
+        width: 560px;
+        height: 20px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #8A8F93;
+        align-self: center;
+    }
+    .A2-C-4{
+        width: 144px;
+        height: 32px;
+        border-radius: 5px;
+        background-color: #EFF8FE;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 8%);
+        justify-content: center;
+        align-items: center;
+    }
+    .A2-C-icons-holder{
+        width: 112px;
+        height: 17px;
+        /* color: rgba(63, 81, 181, 0.27); */
+        justify-content: space-between;
+    }
+    @font-face {
+        font-family: Poppins-Bold;
+        src: url('fonts/Poppins-Bold.ttf');
+    }
+    /* Rating */
+    .A2-Rating{
+        width: 656px;
+        height: 121px;
+        margin-left: 24px;
+        margin-top: 24px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* first half */
+    .A2-Rating-left{
+        width: 251px;
+        height: 121px;
+        justify-content: space-between;
+        flex-flow: wrap;
+    }
+
+    .A2-rate-text{
+        width: 103px;
+        height: 89px;
+        font-family: Poppins-Bold;
+        font-size: 64px;
+        line-height: 95px;
+        color: #8A8F93;
+    } 
+    .a2-rate-div{
+        width: 131px;
+        height: 95px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+   .A2-rate-right{    
+        /* flex-direction: column; */
+        font-family: Roboto-Bold;
+        font-size: 32px;
+        line-height: 43px;
+        margin-top: 15px;
+        color: #8A8F93;
+   }
+   .A2-rate-right-num{
+        font-family: Roboto-Bold;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8A8F93;
+   }
+   .A2-stars-div{
+       width: 152px;
+       height: 24px;
+       justify-content: space-between;
+       margin-left: 3px;
+   }
+   .A2-stars-icon1{
+       width: 24px;
+       height: 24px;
+       align-self: center;
+       background-image: url('icons/Polygon\ 37.svg');    
+   }
+   .A2-stars-icon2{
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    background-image: url('icons/Polygon\ 38.svg');    
+    }
+    .A2-stars-icon3{
+        width: 24px;
+        height: 24px;
+        align-self: center;
+        background-image: url('icons/Polygon\ 40.svg');    
+    }
+    .A2-stars-icon4{
+        width: 24px;
+        height: 24px;
+        align-self: center;
+        background-image: url('icons/Polygon\ 39.svg');    
+    }
+    .A2-stars-icon5{
+        width: 24px;
+        height: 24px;
+        align-self: center;
+        background-image: url('icons/Polygon\ 41.svg');    
+    }
+    /* second half */
+    .A2-Rating-right{
+        width: 365px;
+        height: 112px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .a2-5{
+        width: 365px;
+        height: 16px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .a2-5-1{
+        width: 365px;
+        height: 16px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .A2-num-star{
+        width: 19px;
+        height: 16px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .A2-number{
+        font-family: Roboto-Bold;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8A8F93;
+        justify-self: flex-start;
+    }
+    .A2-number2{
+        font-family: Roboto-Bold;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8A8F93;
+        justify-self: flex-start;
+        margin-right: 8px;
+    }
+    .A2-star{
+        width: 8px;
+        height: 8px;
+        background-image: url('icons/Polygon\ 42.svg');
+    }
+    .A2-range-gray{
+        width: 300px;
+        height: 16px;
+        background-color: rgba(138, 143, 147, 0.25);
+        border-radius: 10px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.40);
+    }
+    .A2-range-golden{
+        width: 236px;
+        height: 16px;
+        border-radius: 8px;
+        background: linear-gradient(to right, rgba(230, 210, 139 , 0.8), rgba(255 , 198, 0, 0.8));
+    }
+    .A2-range-gray1{
+        width: 300px;
+        height: 16px;
+        background-color: rgba(138, 143, 147, 0.25);
+        border-radius: 20px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.40);
+    }
+    .A2-range-golden1{
+        width: 192px;
+        height: 16px;
+        border-radius: 20px;
+        background: linear-gradient(to right, rgba(230, 210, 139 , 0.8), rgba(247 , 201, 48, 0.8));
+    }
+    .A2-range-golden2{
+        width: 163px;
+        height: 16px;
+        border-radius: 20px;
+        background: linear-gradient(to right, rgba(227, 211, 156 , 0.8), rgba(247 , 202, 48, 0.8));
+    }
+    .A2-range-golden3{
+        width: 120px;
+        height: 16px;
+        border-radius: 20px;
+        background: linear-gradient(to right, rgba(227, 211, 156 , 0.8), rgba(247 , 202, 48, 0.8));
+    }
+    .A2-range-golden4{
+        width: 68px;
+        height: 16px;
+        border-radius: 20px;
+        background: linear-gradient(to right, rgba(224, 211, 169 , 0.8), rgba(240 , 203, 83, 0.8));
+    }
+    .horzontianl-line{
+        width: 969px;
+        height: 2px;
+        border-radius: 20px;
+        margin-top: 31px;
+        margin-left: 24px;
+        margin-bottom: 31px;
+        background: linear-gradient(to right, rgba(75, 190, 247 , 0.25), rgba(156 , 157, 254, 0.25));
+        box-shadow: 0px 0px 2px 0px rgba(156, 157, 254, 100%);
+        align-self: center;
+        
+    }
+    /*card*/
+    .n2-Ps-view{
+        width: 1065px;
+        height: 972px;
+        margin-left: 24px;
+        display: grid;
+        grid-template-columns: 339px 339px auto;
+        grid-column-gap: 24px ;
+    }
+    .n2-P-public{
+        width: 339px;
+        height: 471px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 8%);
+        flex-direction: column;
+    }
+    .n2-cover{
+        width: 339px;
+        height: 226px;
+        border-radius: 20px;
+        flex-direction: column;
+        background-image: url('https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+        background-size: cover;
+        border: 3px solid #F9FAFE;
+        box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 16%);
+        /* justify-content: center; */
+    }
+    .n2-icons{
+        width: 307px;
+        height: 98px;
+        justify-content: space-between;
+        margin-top: 17.9px;
+        align-self: center;
+    }
+    .n2-i-background{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: rgba(249, 250, 254, 15%);
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+    }
+    .n2-i-1{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Mask\ Group\ 369.svg');
+    }
+     .n2-i-background1{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: rgba(249, 250, 254, 15%);
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+    }
+    .n2-i-2{
+        width: 16px;
+        height: 16px;
+        transform: rotate(180deg);
+        background-image: url('icons/Mask\ Group\ 369.svg');
+    }
+    .n2-i-background2{
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: rgba(128, 128, 255, 20%);
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-i-3{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Mask\ Group\ 368.svg');
+    }
+    .n2-circles{
+        width: 88px;
+        height: 8px;
+        margin-top: 78px;
+        margin-bottom: 8.1px;
+        align-self: center;
+        justify-content: space-between;
+    }
+    .n2-circle-icons{
+        width: 8px;
+        height: 8px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+    }
+    .n2-circle-icons1{
+        opacity: 30%;
+        width: 8px;
+        height: 8px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+    }
+    .n2-row{
+        width: 291px;
+        height: 40px;
+        align-self: center;
+        position: relative;
+        bottom: 13px;
+        justify-content: space-between;
+    }
+    .n2-R-fh{
+        width: 185px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #F9FAFE;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 15%);
+        align-items: center;
+        justify-content: space-around;
+    }
+    .n2-R-fh-icon{
+        width: 30px;
+        height: 30px;
+        background-image: url('icons/khadeeja-yasser-3U9L9Chc3is-unsplash.svg');
+        align-self: center;
+    }
+    .n2-R-fh-icon1{
+        width: 12px;
+        height: 12px;
+        background-image: url('icons/icons8_call.svg');
+        align-self: center;
+    }
+    .n2-R-fh-icon1{
+        width: 12px;
+        height: 12px;
+        background-image: url('icons/icons8_call.svg');
+        align-self: center;
+    }
+    @font-face {
+        font-family: Lato-Bold;
+        src: url('fonts/Lato-Bold.ttf');
+    }
+    .n2-R-fh-para{
+        width: 95px;
+        height: 16px;
+        font-family: Lato-Bold;
+        font-size: 10px;
+        line-height: 10px;
+        color: #1C2D49;
+    }
+    .n2-back{
+        width:  28px;
+        height: 28px;
+        background-color: rgba(43, 202, 122, 27%);
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-back1{
+        width:  28px;
+        height: 28px;
+        background-color: rgba(64, 201, 255, 27%);
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;    
+    }
+    .n2-back2{
+        width:  28px;
+        height: 28px;
+        background-color: rgba(128, 128, 255, 27%);
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;    
+    }
+    .n2-R-sh{
+        width: 90px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 15%);
+        align-items: center;
+        justify-content: space-around;
+    }
+    .n2-R-sh-icon1{
+        width: 12px;
+        height: 12px;
+        background-image: url('icons/icons8_share.svg');
+        align-self: center;
+    }
+    .n2-R-sh-icon2{
+        width: 12px;
+        height: 12px;
+        background-image: url('icons/icons8_compare.svg');
+        align-self: center;
+    }
+    .n2-txt{
+        width: 300px;
+        height: 42px;
+        font-family: Roboto-regular;
+        font-size: 16px;
+        line-height: 21px;
+        color: #46494C;
+        align-self: center;
+        margin-bottom: 8px;
+    }
+    .n2-location{
+        justify-content: space-between;
+        width: 101px;
+        height: 20px;
+        margin-left: 20px;
+        margin-bottom: 8px;
+    }
+    .n2-L-icon{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/surface1.svg');
+        align-self: center;
+    }
+    .n2-L-para{
+        width: 77px;
+        height: 20px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #8A8F93;
+        justify-content: flex-end;
+    }
+    .n2-div1{
+        width: 48px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #F9FAFE;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 9%);
+        margin-left: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-div2{
+        width: 80px;
+        height: 20px;
+        border-radius: 5px;
+        background-color: #F9FAFE;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 9%);
+        margin-left: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-div1-p{
+        font-family: Roboto-Light;
+        font-size: 10px;
+        line-height: 13px;
+        color: #8080FF;
+    }
+    .n2-details{
+        width: 339px;
+        height: 54px;
+        background-color: rgba(156, 157, 254, 10%);
+    }
+    .n2-D-left{
+        flex-direction: column;
+        width: 68px;
+        height: 36px;
+        align-self: center;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 31px;
+    }
+    .n2-D-Left-icon{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Mask\ Group\ 280.svg');
+    }
+    .n2-D-left-para{
+        font-family: Roboto-Light;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8A8F93;
+    }
+    .n2-D-mid{
+        width: 90px;
+        height: 27px;
+        justify-content: space-between;
+        align-self: center;
+        margin-left: 11px;
+    }
+    .n2-D-mid-icon{
+        width: 2px;
+        height: 27px;
+        border-radius: 20px;
+        background-image: url('icons/Rectangle\ 18830.svg');
+    }
+    .n2-D-mid1{
+        width: 64px;
+        height: 36px;
+        flex-direction: column;
+        align-self: center;
+        justify-content: space-between;
+    }
+    .n2-D-icon1{
+        height: 16px;
+        width: 16px;
+        background-image: url('icons/Mask\ Group\ 274.svg');
+        align-self: center;
+    }
+    .n2-D-right{
+        width: 98px;
+        height: 36px;
+        align-self: center;
+        
+        margin-left: 11px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .n2-D-icon2{
+        height: 16px;
+        width: 16px;
+        background-image: url('icons/Mask\ Group\ 279.svg');
+        align-self: center;
+    }
+    .n2-D-right-para{
+        font-family: Roboto-Light;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8A8F93;
+        align-self: center;
+    }
+    .n2-footer{
+        width: 339px;
+        height: 48px;
+        background-color: #FFFFFF;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;    
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-price{
+        width: 143px;
+        height: 21px;
+        justify-content: space-between;
+
+    }
+    .n2-P-icon{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Path\ 139.svg');
+        align-self: flex-end;
+    }
+    .n2-P-para{
+        width: 119px;
+        height: 18px;
+        font-family: Roboto-Bold;
+        font-size: 20px;
+        line-height: 26px;
+        color: #9C9DFE;
+    }
+    .n2-P-para1{
+        height: 18px;
+        font-family: Roboto-Bold;
+        font-size: 14px;
+        line-height: 29px;
+        color: #8A8F93;
+    }
+    .n2-Load{
+        width: 281px;
+        height: 48px;
+        border-radius: 10px;
+        background: linear-gradient(to right, #4BBEF7, #9C9DFE);
+        margin-left: 24px;
+        align-self: center;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .n2-load-para{
+        width: 148px;
+        height: 16px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: #F5F5FF;
+    }
+    .n2-Load-back{
+        width: 56px;
+        height: 48px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 8%);
+        margin-left: 24px;
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-load-icon{
+        width: 16px;
+        height: 16px;
+        background-image: url('icons/Mask\ Group\ 547.svg');
+    }
+    .horzontianl-line1{
+        width: 969px;
+        height: 2px;
+        border-radius: 20px;
+        margin-top: 32.4px;
+        margin-left: 24px;
+        margin-bottom: 32px;
+        background: linear-gradient(to right, rgba(75, 190, 247 , 0.25), rgba(156 , 157, 254, 0.25));
+        box-shadow: 0px 0px 2px 0px rgba(156, 157, 254, 100%);
+        align-self: center;
+    }
+    .n2-Agents{
+        display: grid;
+        width: 1065px;
+        height: 365px;
+        grid-template-columns: 339px 339px 339px;
+        grid-column-gap: 25px;
+        margin-left: 24px;
+        margin-top: 24px;
+    }
+    .left-agent{
+        width: 339px;
+        height: 341px;
+        align-items: flex-end;
+    }
+    .agent-body{
+        width: 339px;
+        height: 257px;
+        border-radius: 10px;
+        background: linear-gradient(to right, rgba(239, 248, 254, 100%), rgba(244 , 244, 255, 100%));
+        box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 20%);
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-self: flex-end;
+    }
+    .agent-cover{
+        width: 168px;
+        height: 168px;
+        background: linear-gradient(to right, rgba(75, 190, 247, 100%), rgba(156 , 157, 254, 100%));
+        box-shadow: 0px 16px 40px 0px rgba(156, 157, 254, 20%);
+        position: relative;
+        bottom: 84px;
+        border-radius: 50%;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .agent-image
+    {
+        width: 160px;
+        height: 160px;
+        border: 3px solid #EFF8FE;
+        border-radius: 50%;
+        background-image: url('imgs/download.jfif');
+        background-size: cover;
+    }
+    .rate-div{
+        width: 122px;
+        height: 24px;
+    }

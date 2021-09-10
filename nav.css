@@ -1,0 +1,375 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    body{
+        
+        height: 4848px;
+        width: 1920px;
+        background-color: #EEF0FC;
+    }
+    .icon-p{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .display{
+        display: flex;
+    }
+    /* first nav-bar */
+    .nav-bar{
+        height: 80px;
+        width: 1920px;
+        flex-wrap: wrap;
+        align-content: center;
+        background: linear-gradient(to right, rgba(233, 247 , 254 , 100%), rgba(243, 243, 255,100%));
+        box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, .2);
+    }
+    .nav-container{
+        width: 1808px;
+        height: 64px;
+        margin-left: 56px;
+        margin-right: 56px;
+        opacity: 1;
+    }
+    .nav-icon{
+        background-image: url('icons/Group\ 4068.svg');
+        width: 162px;
+        height: 56px;
+        align-self: center;
+        margin-right: 104px;
+        /* justify-self: center; */
+    }
+    .nav-icon-bar{
+        width: 1px;
+        height: 24px;
+        opacity: 0.5;
+        border: rgba(51, 51, 51, 100%);
+        background-image: url('icons/Line\ 19.svg');
+        align-self: center;
+    }
+    @font-face {
+        font-family: Poppins-regular;
+        src: url('fonts/Poppins-Regular.ttf');
+    }
+    .nav-paragraph{
+        width: 64px;
+        height: 28px;
+        font-family: Poppins-regular;
+        font-size: 20px;
+        /* line-height: 0.30; */
+        justify-content: center;
+        align-self: center;
+        color: rgba(75, 190, 247, 100%);
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .nav-properties1{
+        opacity: 1;
+        width: 141px;
+        height: 28px;
+        align-self: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+    @font-face {
+        font-family: Poppins-light;
+        src: url('fonts/Roboto-Light.ttf');
+    }
+    .nav-prop-paragraph1{
+        width: 109px;
+        font-size: 20px;
+        font-family: Poppins-light;
+        color: rgba(51, 51, 51, 0.75);
+        align-self: center;
+        justify-content: center;
+        margin-right: 8px;
+        /* line-height: 0.30; */
+    }
+    .nav-div1{
+        width: 24px;
+        height: 24px;
+        opacity: 1;
+        align-items: center;
+        justify-content: center;
+    }
+     .nav-prop-icon1{
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+        align-self: center;
+        background-image: url('icons/Mask\ Group\ 300.svg');
+        
+        /* margin: 9px 6.3px 6.3px 8.4px; */
+    }
+    .nav-properties2{
+        opacity: 1;
+        width: 109px;
+        height: 28px;
+        align-self: center;
+        align-items: center;
+        margin-right: 40px;
+    }
+    .nav-prop-paragraph2{
+        width: 76px;
+        font-size: 20px;
+        font-family: Poppins-light;
+        color: rgba(51, 51, 51, 0.75);
+        align-self: center;
+        justify-content: center;
+        margin-right: 8px;
+    }
+    .nav-div2{
+        width: 24px;
+        height: 24px;
+        opacity: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-prop-icon2{
+        width: 20px;
+        height: 20px;
+        opacity: 1;
+        align-self: center;
+        background-image: url('icons/Mask\ Group\ 300.svg');
+    }
+    .search-container{
+        width: 476px;
+        height: 48px;
+        background: linear-gradient(to right, rgba(75, 190 , 247 , 0.12), rgba(156, 157, 254, 0.12));
+        border-radius: 20px;
+        align-self: center;
+        align-content: center;
+        margin-right: 40px;
+    }
+    .s1-div{
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        margin: 12px 8px 12px 12px;
+    }
+    .s1-icon{
+        width: 18.53px;
+        height: 18.53px;
+        opacity: 1;
+        align-items: center;
+        background-image: url('icons/Mask\ Group\ 302.svg');
+        
+        margin: 2.7px 2.7px 2.7px 2.7px;
+    }
+    .s1-para{
+        width: 104px;
+        font-family: Poppins-light;
+        font-size: 16px;
+        color: #9DA9BE;
+        /* line-height: 0.25; */
+        align-self: center;
+        justify-content: flex-start;
+    }
+    .l1-div{
+        width: 240px;
+        height: 40px;
+        opacity: 1;
+        background: linear-gradient(to right, rgba(75, 190 , 247 , 100%), rgba(156, 157, 254,100%));
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+        margin-left: 39px;
+        align-self: center;
+        justify-content: center;
+        border-radius: 20px;
+        margin-right: 86px;
+    }
+    .l1-inside-div{
+        width: 169px;
+        height: 23px;
+        opacity: 1;
+        align-self: center;
+        /* justify-content: center; */
+        margin: 9px 35px 8px 36px ;
+        /* background-color: rgba(255, 255, 255,100%); */
+    }
+    .l1-icon{
+        width: 16px;
+        height: 16px;
+        opacity: 1;
+        align-self: center;
+        background-image: url('icons/Mask\ Group\ 526.svg');
+        margin-right: 16px;
+    }
+    .l1-para{
+        width: 137px;
+        font-family: Poppins-regular;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 100%);
+        /* line-height: 0.25; */
+    }
+    .background-hidden{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        align-self: center;
+        justify-content: center;
+        background-color: #FFFFFF ;
+        margin-left: 4px;
+        margin-right: 44px;
+    }
+    .outerline-div{
+        min-width: 56px;
+        height: 56px;
+        background-color: rgb(0, 172, 245 , 0.1); 
+        align-self: center;
+        justify-content: center;
+        border-radius: 50%;
+    } 
+    .inner-div{
+        width: 48px;
+        height: 48px;
+        align-self: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: linear-gradient(to right, rgba(128, 128 , 255 , 0.15), rgba(68, 172, 245, 0.15));
+    }
+    .inner-icon{
+        min-width: 24px;
+        height: 24px;
+        opacity: 100%;
+        background-image: url('icons/Mask\ Group\ 337.svg');
+        justify-content: flex-end;
+        align-self: center;
+        margin: 16px 16px 16px 16px;
+    }
+    .red-circle{
+        width: 6px;
+        height: 6px;
+        align-self: flex-start;
+        background-color: #FD3148;
+        margin: 1px 5px 17px 13px;
+        border-radius: 50%;
+    }
+    .w1-container{
+        width: 92px;
+        height: 64px;
+        align-items: center;
+    }
+    .w1-background1{
+        width: 64px;
+        height: 64px;
+        align-self: center;
+        justify-content: center;
+        background-color:#E5F7FE;
+        border: 2px solid #9C9DFE;
+        border-radius: 50%;
+    }
+    .w1-image-border{
+        width: 56px;
+        height: 56px;
+        align-self: center;
+        justify-self: flex-start;
+        background-image: url('https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-733872.jpg&fm=jpg');
+        border: 2px solid #9C9DFE;
+        border-radius: 50%;
+    }
+    .w1-div{
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 4px;
+    }
+    .w1-icon{
+        width: 20px;
+        height: 20px;
+        background-image: url('icons/Mask\ Group\ 300.svg');
+    }
+    /* second nav-bar */
+    .n2{
+        width: 1065px;
+        height: 48px;
+        border-radius: 10px;
+        background-color: rgba(249, 250, 254, 100%);
+        box-shadow: 0px 3px 6px 0px rgba(170, 170, 170, 0.2);
+        margin-left: 24px;
+        margin-top: 24px;
+        justify-content: space-between;
+        margin-bottom: 24px;
+    }
+    .n2-apartment{
+        width: 162px;
+        height: 48px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 100%);
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-t1{
+        width: 97.31px;
+        height: 16px;
+        justify-content: space-between;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(70, 73, 76, 100%);
+    }
+    .n2-ts{
+        font-family: Poppins-light;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(70, 73, 76, 100%);
+        align-self: center;
+    }
+    .n2-t2{
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(156, 157, 254, 100%);    
+        align-self: flex-start;
+
+    }
+    .n2-t3{
+        width: 76px;
+        height: 16px;
+        margin-left: 11px;
+        margin-right: 32px;
+    }
+    .n2-t4{
+        width: 139px;
+        height: 16px;
+    }
+    .n2-t5{
+        width: 97px;
+        height: 16px;
+        margin-left: 6px;
+        margin-right: 235px;
+    }
+    .n2-more{
+        width: 281px;
+        height: 48px;
+        background-color: #4BBEF7;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+        justify-content: center;
+        align-items: center;
+    }
+    .n2-m-i{
+        width: 57px;
+        height: 16px;
+        justify-content: space-between;
+    }
+    .n2-m{
+        width: 41px;
+        height: 16px;
+        font-family: Poppins-regular;
+        font-size: 14px;
+        line-height: 21px;
+        color: rgba(245, 245, 245, 100%);    
+    }
+    .n2-i{
+        width: 8px;
+        height: 6px;
+        align-self: flex-end;
+        margin-bottom: 3px;
+        background-image: url('icons/Polygon\ 43.svg');
+    }
+  
